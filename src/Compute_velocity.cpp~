@@ -1,0 +1,22 @@
+#include <iostream>
+#include <Eigen/Core>
+#include <Eigen/Lgsm>
+#include <stdio.h>      
+#include <math.h>       
+#include "Compute_velocity.h"
+
+double compute_prj_velocity(char* nrst_ob_id, Eigen::Twistd V, Eigen::Displacementd point_1, Eigen::Displacementd point_2){
+	double projected_velocity_norm; 
+	Eigen::VectorXd projection_vector;
+
+
+//ifn(rst_ob_id
+	projection_vector[0] =  point_1.getTranslation().x()-point_2.getTranslation().x();
+	projection_vector[1] =  point_1.getTranslation().y()-point_2.getTranslation().y();
+	projection_vector[2] =  point_1.getTranslation().z()-point_2.getTranslation().z();
+	
+	projected_velocity_norm = (V[3]*projection_vector[0]) + (V[4]*projection_vector[1]) + (V[5]*projection_vector[2]);
+
+return projected_velocity_norm;
+}
+

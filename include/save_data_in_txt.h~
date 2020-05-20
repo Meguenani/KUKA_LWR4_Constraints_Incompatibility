@@ -1,0 +1,640 @@
+
+
+
+void save_E_2(double E_2);
+void save_E_2_max(double E_2_max);
+
+void save_E_3(double E_3);
+void save_E_3_max(double E_3_max);
+
+void save_E_4(double E_4);
+void save_E_4_max(double E_4_max);
+
+void save_E_5(double E_5);
+void save_E_5_max(double E_5_max);
+
+void save_E_6(double E_6);
+void save_E_6_max(double E_6_max);
+
+void save_Ec_7(double Ec_7);
+void save_Ec_7_max(double Ec_7_max);
+
+
+void save_dist_07(double global_dist_07_nrst_ob);
+void save_dist_06(double global_dist_06_nrst_ob);
+void save_dist_05(double global_dist_05_nrst_ob);
+void save_dist_04(double global_dist_04_nrst_ob);
+void save_dist_03(double global_dist_03_nrst_ob);
+void save_dist_02(double global_dist_02_nrst_ob);
+
+
+double save_d_safe(double global_d_safe);
+
+
+void save_global_time(double time);
+
+
+void save_trajectory_x(double x);
+void save_trajectory_y(double y);
+void save_trajectory_z(double z);
+
+
+void save_des_trajectory_x(double x);
+void save_des_trajectory_y(double y);
+void save_des_trajectory_z(double z);
+
+
+void save_tau_0(double tau_0);
+void save_tau_1(double tau_1);
+void save_tau_2(double tau_2);
+void save_tau_3(double tau_3);
+void save_tau_4(double tau_4);
+void save_tau_5(double tau_5);
+void save_tau_6(double tau_6);
+
+
+
+void save_tau_0_max(double tau_0);
+void save_tau_1_max(double tau_1);
+void save_tau_2_max(double tau_2);
+void save_tau_3_max(double tau_3);
+void save_tau_4_max(double tau_4);
+void save_tau_5_max(double tau_5);
+void save_tau_6_max(double tau_6);
+
+
+
+
+void save_tau_0_min(double tau_0);
+void save_tau_1_min(double tau_1);
+void save_tau_2_min(double tau_2);
+void save_tau_3_min(double tau_3);
+void save_tau_4_min(double tau_4);
+void save_tau_5_min(double tau_5);
+void save_tau_6_min(double tau_6);
+
+
+
+
+void save_q_dotdot_0(double q_dotdot_0);
+void save_q_dotdot_1(double q_dotdot_1);
+void save_q_dotdot_2(double q_dotdot_2);
+void save_q_dotdot_3(double q_dotdot_3);
+void save_q_dotdot_4(double q_dotdot_4);
+void save_q_dotdot_5(double q_dotdot_5);
+void save_q_dotdot_6(double q_dotdot_6);
+
+
+
+void save_q_dotdot_0_max(double q_dotdot_0_max);
+void save_q_dotdot_1_max(double q_dotdot_1_max);
+void save_q_dotdot_2_max(double q_dotdot_2_max);
+void save_q_dotdot_3_max(double q_dotdot_3_max);
+void save_q_dotdot_4_max(double q_dotdot_4_max);
+void save_q_dotdot_5_max(double q_dotdot_5_max);
+void save_q_dotdot_6_max(double q_dotdot_6_max);
+
+
+
+void save_q_dotdot_0_min(double q_dotdot_0_min);
+void save_q_dotdot_1_min(double q_dotdot_1_min);
+void save_q_dotdot_2_min(double q_dotdot_2_min);
+void save_q_dotdot_3_min(double q_dotdot_3_min);
+void save_q_dotdot_4_min(double q_dotdot_4_min);
+void save_q_dotdot_5_min(double q_dotdot_5_min);
+void save_q_dotdot_6_min(double q_dotdot_6_min);
+
+
+
+//Save Jerk Max et Min
+void save_q_dotdotdot_0(double q_dotdotdot_0);
+void save_q_dotdotdot_1(double q_dotdotdot_1);
+void save_q_dotdotdot_2(double q_dotdotdot_2);
+void save_q_dotdotdot_3(double q_dotdotdot_3);
+void save_q_dotdotdot_4(double q_dotdotdot_4);
+void save_q_dotdotdot_5(double q_dotdotdot_5);
+void save_q_dotdotdot_6(double q_dotdotdot_6);
+
+void save_q_dotdotdot_0_max(double q_dotdotdot_0_max);
+void save_q_dotdotdot_1_max(double q_dotdotdot_1_max);
+void save_q_dotdotdot_2_max(double q_dotdotdot_2_max);
+void save_q_dotdotdot_3_max(double q_dotdotdot_3_max);
+void save_q_dotdotdot_4_max(double q_dotdotdot_4_max);
+void save_q_dotdotdot_5_max(double q_dotdotdot_5_max);
+void save_q_dotdotdot_6_max(double q_dotdotdot_6_max);
+
+void save_q_dotdotdot_0_min(double q_dotdotdot_0_min);
+void save_q_dotdotdot_1_min(double q_dotdotdot_1_min);
+void save_q_dotdotdot_2_min(double q_dotdotdot_2_min);
+void save_q_dotdotdot_3_min(double q_dotdotdot_3_min);
+void save_q_dotdotdot_4_min(double q_dotdotdot_4_min);
+void save_q_dotdotdot_5_min(double q_dotdotdot_5_min);
+void save_q_dotdotdot_6_min(double q_dotdotdot_6_min);
+
+
+
+void save_q_dotdot_0_max_comp(double q_dotdot_0_max_comp);
+void save_q_dotdot_1_max_comp(double q_dotdot_1_max_comp);
+void save_q_dotdot_2_max_comp(double q_dotdot_2_max_comp);
+void save_q_dotdot_3_max_comp(double q_dotdot_3_max_comp);
+void save_q_dotdot_4_max_comp(double q_dotdot_4_max_comp);
+void save_q_dotdot_5_max_comp(double q_dotdot_5_max_comp);
+void save_q_dotdot_6_max_comp(double q_dotdot_6_max_comp);
+
+
+
+void save_q_dotdot_0_min_comp(double q_dotdot_0_min_comp);
+void save_q_dotdot_1_min_comp(double q_dotdot_1_min_comp);
+void save_q_dotdot_2_min_comp(double q_dotdot_2_min_comp);
+void save_q_dotdot_3_min_comp(double q_dotdot_3_min_comp);
+void save_q_dotdot_4_min_comp(double q_dotdot_4_min_comp);
+void save_q_dotdot_5_min_comp(double q_dotdot_5_min_comp);
+void save_q_dotdot_6_min_comp(double q_dotdot_6_min_comp);
+
+
+
+void save_d_07_ob(double d_07_ob);
+void save_d_06_ob(double d_06_ob);
+void save_d_05_ob(double d_05_ob);
+void save_d_04_ob(double d_04_ob);
+void save_d_03_ob(double d_03_ob);
+void save_d_02_ob(double d_02_ob);
+
+
+void save_V_7(double V_7);
+void save_V_7_x(double V_7_x);
+void save_V_7_y(double V_7_y);
+void save_V_7_z(double V_7_z);
+
+void save_V_7_des_0(double V_7_des_0);
+void save_V_7_des_x_0(double V_7_des_x_0);
+void save_V_7_des_y_0(double V_7_des_y_0);
+void save_V_7_des_z_0(double V_7_des_z_0);
+
+void save_V_7_des(double V_7_des);
+void save_V_7_des_x(double V_7_des_x);
+void save_V_7_des_y(double V_7_des_y);
+void save_V_7_des_z(double V_7_des_z);
+
+void save_Acc_7_des_0(double Acc_7_des_0);
+void save_Acc_7_des_0_x(double Acc_7_des_0_x);
+void save_Acc_7_des_0_y(double Acc_7_des_0_y);
+void save_Acc_7_des_0_z(double Acc_7_des_0_z);
+
+void save_Acc_7_des(double Acc_7_des);
+void save_Acc_7_des_x(double Acc_7_des_x);
+void save_Acc_7_des_y(double Acc_7_des_y);
+void save_Acc_7_des_z(double Acc_7_des_z);
+
+void save_Acc_7(double Acc_7);
+void save_Acc_7_x(double Acc_7_x);
+void save_Acc_7_y(double Acc_7_y);
+void save_Acc_7_z(double Acc_7_z);
+
+void save_Jerk_7_des(double Jerk_7_des);
+void save_Jerk_7_des_x(double Jerk_7_des_x);
+void save_Jerk_7_des_y(double Jerk_7_des_y);
+void save_Jerk_7_des_z(double Jerk_7_des_z);
+
+void save_Jerk_7(double Jerk_7);
+void save_Jerk_7_x(double Jerk_7_x);
+void save_Jerk_7_y(double Jerk_7_y);
+void save_Jerk_7_z(double Jerk_7_z);
+
+
+void save_q(double q_0, double q_1, double q_2, double q_3, double q_4, double q_5, double q_6);
+void save_q_0_min(double q_0_min);
+void save_q_1_min(double q_1_min);
+void save_q_2_min(double q_2_min);
+void save_q_3_min(double q_3_min);
+void save_q_4_min(double q_4_min);
+void save_q_5_min(double q_5_min);
+void save_q_6_min(double q_6_min);
+
+void save_q_0_max(double q_0_max);
+void save_q_1_max(double q_1_max);
+void save_q_2_max(double q_2_max);
+void save_q_3_max(double q_3_max);
+void save_q_4_max(double q_4_max);
+void save_q_5_max(double q_5_max);
+void save_q_6_max(double q_6_max);
+
+
+
+
+void save_q_dot(double q_dot_0, double q_dot_1, double q_dot_2, double q_dot_3, double q_dot_4, double q_dot_5, double q_dot_6);
+void save_q_dot_0_min(double q_dot_0_min);
+void save_q_dot_1_min(double q_dot_1_min);
+void save_q_dot_2_min(double q_dot_2_min);
+void save_q_dot_3_min(double q_dot_3_min);
+void save_q_dot_4_min(double q_dot_4_min);
+void save_q_dot_5_min(double q_dot_5_min);
+void save_q_dot_6_min(double q_dot_6_min);
+
+void save_q_dot_0_max(double q_dot_0_max);
+void save_q_dot_1_max(double q_dot_1_max);
+void save_q_dot_2_max(double q_dot_2_max);
+void save_q_dot_3_max(double q_dot_3_max);
+void save_q_dot_4_max(double q_dot_4_max);
+void save_q_dot_5_max(double q_dot_5_max);
+void save_q_dot_6_max(double q_dot_6_max);
+
+
+
+void save_X_err_0(double X_err_0);
+void save_X_err_x_0(double X_err_x_0);
+void save_X_err_y_0(double X_err_y_0);
+void save_X_err_z_0(double X_err_z_0);
+
+
+void save_X_err(double X_err);
+void save_X_err_x(double X_err_x);
+void save_X_err_y(double X_err_y);
+void save_X_err_z(double X_err_z);
+
+
+void save_real_step_time(double real_step_time);
+void save_fixed_dt(double fixed_dt);
+void save_V_7_ob(double V_7_ob_sgn_norm);
+void save_V_7_C_ob(double V_7_C_ob);
+void save_V_7_C_ob_diff_comp(double V_7_C_ob_diff_comp);
+void save_V_7_C_ob_t2(double V_7_C_ob_t2);
+void save_V_7_C_ob_QP_side(double V_7_C_ob_QP_side);
+void save_E_7_reconstructed_with_V_7_t2(double E_7_reconstructed_with_V_7_t2);
+void save_sgn_V_7_C_ob(double sgn_V_7_C_ob);
+void save_sgn_V_7_C_ob_diff_comp(double sgn_V_7_C_ob_diff_comp);
+void save_sgn_V_7_C_ob_t2(double sgn_V_7_C_ob_t2);
+void save_E_7_C_ob(double E_7_C_ob);
+void save_E_7_C_ob_diff_comp(double E_7_C_ob_diff_comp);
+void save_acos_n_7_0(double acos_n_7_0);
+void save_angle_V_7_to_nrst_dist_ob(double angle_V_7_to_nrst_dist_ob);
+void save_norm_axis_of_rot_angle_7(double norm_axis_of_rot_angle_7);
+void save_dynamic(double dynamic_1, double dynamic_2, double dynamic_3, double dynamic_4, double dynamic_5, double dynamic_6, double dynamic_7);
+
+
+void save_M_q_dotdot_0(double M_q_dotdot_0);
+void save_M_q_dotdot_1(double M_q_dotdot_1);
+void save_M_q_dotdot_2(double M_q_dotdot_2);
+void save_M_q_dotdot_3(double M_q_dotdot_3);
+void save_M_q_dotdot_4(double M_q_dotdot_4);
+void save_M_q_dotdot_5(double M_q_dotdot_5);
+void save_M_q_dotdot_6(double M_q_dotdot_6);
+
+void save_b_0(double b_0);
+void save_b_1(double b_1);
+void save_b_2(double b_2);
+void save_b_3(double b_3);
+void save_b_4(double b_4);
+void save_b_5(double b_5);
+void save_b_6(double b_6);
+
+
+void save_X_dot_dot_des_0(double X_dot_dot_des_0);
+void save_X_dot_dot_des_0_x(double X_dot_dot_des_0_x);
+void save_X_dot_dot_des_0_y(double X_dot_dot_des_0_y);
+void save_X_dot_dot_des_0_z(double X_dot_dot_des_0_z);
+
+void save_X_dot_dot_des(double X_dot_dot_des);
+void save_X_dot_dot_des_x(double X_dot_dot_des_x);
+void save_X_dot_dot_des_y(double X_dot_dot_des_y);
+void save_X_dot_dot_des_z(double X_dot_dot_des_z);
+
+void save_X_dot_dot(double X_dot_dot);
+void save_X_dot_dot_x(double X_dot_dot_x);
+void save_X_dot_dot_y(double X_dot_dot_y);
+void save_X_dot_dot_z(double X_dot_dot_z);
+
+void save_kp_X_err_0(double kp_X_err_0);
+void save_kp_X_err_1(double kp_X_err_1);
+void save_kp_X_err_2(double kp_X_err_2);
+
+void save_kd_V_7_l_0(double kd_V_7_l_0);
+void save_kd_V_7_l_1(double kd_V_7_l_1);
+void save_kd_V_7_l_2(double kd_V_7_l_2);
+
+
+void save_rank_J_70_l(double rank_J_70_l);
+void save_t_1(double t_1);
+
+void save_s_x(double s_x);
+void save_s_y(double s_y);
+void save_s_z(double s_z);
+
+void save_s_dot_x(double s_dot_x);
+void save_s_dot_y(double s_dot_y);
+void save_s_dot_z(double s_dot_z);
+
+void save_s_dot_dot_x(double s_dot_dot_x);
+void save_s_dot_dot_y(double s_dot_dot_y);
+void save_s_dot_dot_z(double s_dot_dot_z);
+
+void save_s_dot_dot_dot_x(double s_dot_dot_dot_x);
+void save_s_dot_dot_dot_y(double s_dot_dot_dot_y);
+void save_s_dot_dot_dot_z(double s_dot_dot_dot_z);
+
+void save_T_x(double T_x);
+void save_T_y(double T_y);
+void save_T_z(double T_z);
+
+void save_t_2_x(double t_2_x);
+void save_t_2_y(double t_2_y);
+void save_t_2_z(double t_2_z);
+
+void save_V_7_prev_0(double V_7_0);
+void save_Acc_x_prev(double Acc_x_prev);
+
+
+
+
+
+void save_K_p_X_err(double K_p_X_err);
+void save_K_p_X_err_0(double K_p_X_err_0);
+void save_K_p_X_err_1(double K_p_X_err_1);
+void save_K_p_X_err_2(double K_p_X_err_2);
+
+
+void save_K_d_V_7_err(double K_d_V_7_err);
+void save_K_d_V_7_err_0(double K_d_V_7_err_0);
+void save_K_d_V_7_err_1(double K_d_V_7_err_1);
+void save_K_d_V_7_err_2(double K_d_V_7_err_2);
+
+
+
+
+
+void save_Acc_7_err(double Acc_7_err);
+void save_Acc_7_err_x(double Acc_7_err_x);
+void save_Acc_7_err_y(double Acc_7_err_y);
+void save_Acc_7_err_z(double Acc_7_err_z);
+
+void save_Diff_X_dot_dot_Acc_7_des(double Diff_X_dot_dot_Acc_7_des);
+void save_Diff_X_dot_dot_Acc_7_des_x(double Diff_X_dot_dot_Acc_7_des_x);
+void save_Diff_X_dot_dot_Acc_7_des_y(double Diff_X_dot_dot_Acc_7_des_y);
+void save_Diff_X_dot_dot_Acc_7_des_z(double Diff_X_dot_dot_Acc_7_des_z);
+
+
+void save_s_angle(double s_angle);
+void save_s_dot_angle(double s_dot_angle);
+void save_s_dot_dot_angle(double s_dot_dot_angle);
+void save_s_dot_dot_dot_angle(double s_dot_dot_dot_angle);
+void save_T_angle(double T_angle);
+void save_t_2_angle(double t_2_angle);
+
+
+void save_des_trajectory_angle(double nxt_step_des_angle);
+void save_trajectory_angle(double angle_curr_rot);
+void save_Acc_7_angle(double Acc_angle_curr_rot);
+void save_Jerk_7_angle(double Jerk_angle_curr_rot);
+void save_V_7_angle(double V_angle_curr_rot);
+void save_V_7_des_angle(double nxt_step_des_V_7_angle);
+void save_Acc_7_des_angle(double nxt_step_des_Acc_7_angle);
+void save_Jerk_7_des_angle(double nxt_step_des_Jerk_7_angle);
+
+void save_X_err_orient_0(double X_err_orient_0);
+void save_X_err_orient_1(double X_err_orient_1);
+void save_X_err_orient_2(double X_err_orient_2);
+void save_X_err_orient(double norme_X_err_orient);
+void save_Err_interpolation_aggle(double Err_interpolation_aggle);
+
+
+
+
+void save_norme_Acc_7_orient(double norme_Acc_7_orient);
+void save_Acc_7_orient_0(double Acc_7_orient_0);
+void save_Acc_7_orient_1(double Acc_7_orient_1);
+void save_Acc_7_orient_2(double Acc_7_orient_2);
+void save_norme_Acc_7_orient_des(double norme_Acc_7_orient_des);
+void save_Acc_7_orient_des_0(double Acc_7_orient_des_0);
+void save_Acc_7_orient_des_1(double Acc_7_orient_des_1);
+void save_Acc_7_orient_des_2(double Acc_7_orient_des_2);
+
+void save_norme_V_7_orient(double norme_V_7_orient);
+void save_V_7_orient_0(double V_7_orient_0);
+void save_V_7_orient_1(double V_7_orient_1);
+void save_V_7_orient_2(double V_7_orient_2);
+void save_norme_V_7_orient_des(double norme_V_7_orient_des);
+void save_V_7_orient_des_0(double V_7_orient_des_0);
+void save_V_7_orient_des_1(double V_7_orient_des_1);
+void save_V_7_orient_des_2(double V_7_orient_des_2);
+
+void save_norme_angle_curr_rot_prj(double norme_angle_curr_rot_prj);
+void save_angle_curr_rot_prj_0(double angle_curr_rot_prj_0);  
+void save_angle_curr_rot_prj_1(double angle_curr_rot_prj_1);  
+void save_angle_curr_rot_prj_2(double angle_curr_rot_prj_2); 
+void save_norme_angle_7_to_des_rot_prj(double norme_angle_7_to_des_rot_prj);
+void save_angle_7_to_des_rot_prj_0(double angle_7_to_des_rot_prj_0);  
+void save_angle_7_to_des_rot_prj_1(double angle_7_to_des_rot_prj_1);  
+void save_angle_7_to_des_rot_prj_2(double angle_7_to_des_rot_prj_2);  
+
+
+void save_Diff_X_dot_dot_des_Jdot_qdot_rot(double Diff_X_dot_dot_des_Jdot_qdot_rot);
+void save_Diff_X_dot_dot_des_Jdot_qdot_rot_0(double Diff_X_dot_dot_des_Jdot_qdot_rot_0);
+void save_Diff_X_dot_dot_des_Jdot_qdot_rot_1(double Diff_X_dot_dot_des_Jdot_qdot_rot_1);
+void save_Diff_X_dot_dot_des_Jdot_qdot_rot_2(double Diff_X_dot_dot_des_Jdot_qdot_rot_2);
+
+
+
+void save_q_dotdot_des_6(double q_dot_dot_des_6);
+void save_q_dotdot_des_5(double q_dot_dot_des_5);
+void save_q_dotdot_des_4(double q_dot_dot_des_4);
+void save_q_dotdot_des_3(double q_dot_dot_des_3);
+void save_q_dotdot_des_2(double q_dot_dot_des_2);
+void save_q_dotdot_des_1(double q_dot_dot_des_1);
+void save_q_dotdot_des_0(double q_dot_dot_des_0);
+
+
+void save_des_qw(double des_qw);
+void save_des_qx(double des_qx);
+void save_des_qy(double des_qy);
+void save_des_qz(double des_qz);
+void save_qw(double qw);
+void save_qx(double qx);
+void save_qy(double qy);
+void save_qz(double qz);
+
+void save_axis_curr_rot_0(double axis_curr_rot_0);
+void save_axis_curr_rot_1(double axis_curr_rot_1);
+void save_axis_curr_rot_2(double axis_curr_rot_2);
+void save_axis_7_to_des_rot_0(double axis_7_to_des_rot_0);
+void save_axis_7_to_des_rot_1(double axis_7_to_des_rot_1);
+void save_axis_7_to_des_rot_2(double axis_7_to_des_rot_2);
+
+
+
+
+
+
+void save_s_dot_alpha(double s_dot_alpha);
+void save_s_dot_beta(double s_dot_beta);
+void save_s_dot_gamma(double s_dot_gamma);
+void save_s_dot_dot_alpha(double s_dot_dot_alpha);
+void save_s_dot_dot_beta(double s_dot_dot_beta);
+void save_s_dot_dot_gamma(double s_dot_dot_gamma);
+void save_s_dot_dot_dot_alpha(double s_dot_dot_dot_alpha);
+void save_s_dot_dot_dot_beta(double s_dot_dot_dot_beta);
+void save_s_dot_dot_dot_gamma(double s_dot_dot_dot_gamma);
+void save_t_2_alpha(double t_2_alpha);
+void save_t_2_beta(double t_2_beta);
+void save_t_2_gamma(double t_2_gamma);
+void save_T_alpha(double T_alpha);
+void save_T_beta(double T_beta);
+void save_T_gamma(double T_gamma);
+
+void save_status(int status);
+void save_PSD(int PSD);
+void save_lambda(double lambda_0, double lambda_1, double lambda_2, double lambda_3, double lambda_4, double lambda_5, double lambda_6);
+
+
+void save_E_p_7(double E_p_7);
+void save_Ep_7_x_max(double Ep_7_x_max);
+void save_E_p_7_apprx(double E_p_7_apprx);
+void save_Ep_rebuilt2(double Ep_rebuilt2);
+void save_E_7_reconstructed_with_V_7_t2_derived(double E_7_reconstructed_with_V_7_t2_derived);
+void save_m_eq_7_j_Xerr(double m_eq_7_j_Xerr);
+void save_Acc_7_x_nxt_step(double Acc_7_x_nxt_step);
+void save_Ep_7_prj_real(double Ep_7_prj_real);
+void save_Acc_7_x_nxt_step_limit(double Acc_7_x_nxt_step_limit);
+void save_Real_Ec_7_x_rcnsrcted_wth_small_Ep_7_x(double Real_Ec_7_x_rcnsrcted_wth_small_Ep_7_x);
+void save_Ec_7_x_rcnsrcted_wth_small_Ep_7_x_nxt_step(double Ec_7_x_rcnsrcted_wth_small_Ep_7_x_nxt_step);
+void save_F_7_x(double F_7_x);
+void save_Ep_7_x(double Ep_7_x);
+void save_Real_Ec_7_x(double Real_Ec_7_x);
+void save_Ec_7_x_nxt_step(double Ec_7_x_nxt_step);
+void save_Ec_max_7_x(double Ec_max_7_x);
+void save_Force_sensor_x(double Force_sensor_x);
+void save_Force_sensor_y(double Force_sensor_y);
+void save_Force_sensor_z(double Force_sensor_z);
+
+void save_Real_robot_force_estimated_x(double Real_robot_force_estimated_x); 
+void save_robot_force_x_nxt_step(double robot_force_x_nxt_step);
+void save_robot_force_x_nxt_step_limit_max(double robot_force_x_nxt_step_limit_max);
+void save_robot_force_x_nxt_step_limit_min(double robot_force_x_nxt_step_limit_min);
+
+
+void save_Real_robot_force_estimated_z(double Real_robot_force_estimated_z); 
+void save_robot_force_z_nxt_step(double robot_force_z_nxt_step);
+void save_robot_force_z_nxt_step_limit_max(double robot_force_z_nxt_step_limit_max);
+void save_robot_force_z_nxt_step_limit_min(double robot_force_z_nxt_step_limit_min);
+
+
+void save_Ep_x_nxt_step(double Ep_x_nxt_step);
+void save_Ep_x_nxt_step_limit_max(double Ep_x_nxt_step_limit_max);
+void save_Ep_x_nxt_step_limit_min(double Ep_x_nxt_step_limit_min);
+void save_Real_Ep_x(double Real_Ep_x);
+
+void save_Ep_real_during_and_before_contact_x(double Ep_real_during_and_before_contact_x);
+void save_Ec_7_x(double Ec_7_x);
+
+
+void save_n_neg_acc_posi(Eigen::VectorXi n_neg_acc_posi);
+void save_n_pos_acc_posi(Eigen::VectorXi n_pos_acc_posi);
+void save_n_neg_jerk_vel(Eigen::VectorXi n_neg_jerk_vel);
+void save_n_pos_jerk_vel(Eigen::VectorXi n_pos_jerk_vel);
+void save_n_neg_jerk_posi(Eigen::VectorXi n_neg_jerk_posi);
+void save_n_pos_jerk_posi(Eigen::VectorXi n_pos_jerk_posi);
+
+
+void save_q_dotdot_bounds_min_optimized(Eigen::VectorXd q_dotdot_bounds_min_trq_derived);
+void save_q_dotdot_bounds_max_optimized(Eigen::VectorXd q_dotdot_bounds_max_trq_derived);
+
+void save_status_q_ddot_opt_min(double status_q_ddot_opt_min);
+void save_status_q_ddot_opt_max(double status_q_ddot_opt_max);
+
+
+
+void save_q_dotdot_bounds_max_comp_0(double q_dotdot_bounds_max_comp_0);
+void save_q_dotdot_bounds_min_comp_0(double q_dotdot_bounds_min_comp_0);
+
+
+void save_q_dotdot_bounds_max_comp_Acc_Posi_0(double q_dotdot_bounds_max_comp_Acc_Posi_0);
+void save_q_dotdot_bounds_min_comp_Acc_Posi_0(double q_dotdot_bounds_min_comp_Acc_Posi_0);
+
+
+void save_q_dotdot_bounds_max_comp_Jerk_Vel_0(double q_dotdot_bounds_max_comp_Jerk_Vel_0);
+void save_q_dotdot_bounds_min_comp_Jerk_Vel_0(double q_dotdot_bounds_min_comp_Jerk_Vel_0);
+
+void save_domaines_Jerk_Vel_and_Acc_Posi_disconnected(double domaines_Jerk_Vel_and_Acc_Posi_disconnected);
+
+void save_q_dotdot_bounds_max_prime_forwrd_backwrd(Eigen::VectorXd q_dotdot_bounds_max_prime_forwrd_backwrd);
+void save_q_dotdot_bounds_min_prime_forwrd_backwrd(Eigen::VectorXd q_dotdot_bounds_min_prime_forwrd_backwrd);
+
+
+void save_n1_neg_jerk_acc_posi(Eigen::VectorXi n1_neg_jerk_acc_posi);
+void save_n2_neg_jerk_acc_posi(Eigen::VectorXi n2_neg_jerk_acc_posi);
+void save_n_neg_jerk_acc_posi(Eigen::VectorXi n_neg_jerk_acc_posi);
+
+void save_n1_pos_jerk_acc_posi(Eigen::VectorXi n1_pos_jerk_acc_posi);
+void save_n2_pos_jerk_acc_posi(Eigen::VectorXi n2_pos_jerk_acc_posi);
+void save_n_pos_jerk_acc_posi(Eigen::VectorXi n_pos_jerk_acc_posi);
+
+
+
+void save_q_k_n_jerk_const_max(Eigen::VectorXd q_k_n_jerk_const_max);
+void save_q_k_n_jerk_const_min(Eigen::VectorXd q_k_n_jerk_const_min);
+
+void save_q_ddot_k_n_jerk_const_max(Eigen::VectorXd q_ddot_k_n_jerk_const_max);
+void save_q_ddot_k_n_jerk_const_min(Eigen::VectorXd q_ddot_k_n_jerk_const_min);
+
+void save_n_neg_jerk_posi_P3(Eigen::VectorXi n_neg_jerk_posi_P3);
+void save_n_pos_jerk_posi_P3(Eigen::VectorXi n_pos_jerk_posi_P3);
+
+
+void save_nxt_step_des_qddot_cnstr_frm_brking_posi_cnstr_vel_constr(Eigen::VectorXd nxt_step_des_qddot_cnstr_frm_brking_posi_cnstr_vel_constr);
+void save_nxt_step_des_qddot_cnstr_frm_brking_posi_cnstr_acc_constr(Eigen::VectorXd nxt_step_des_qddot_cnstr_frm_brking_posi_cnstr_acc_constr);
+void save_nxt_step_des_qddot_cnstr_frm_brking_posi_cnstr_jerk_constr(Eigen::VectorXd nxt_step_des_qddot_cnstr_frm_brking_posi_cnstr_jerk_constr);
+void save_q_dotdot_bounds_deriv_max_comp(Eigen::VectorXd q_dotdot_bounds_deriv_max_comp);
+void save_q_dotdot_bounds_deriv_min_comp(Eigen::VectorXd q_dotdot_bounds_deriv_min_comp);
+void save_q_dot_bounds_max_comp_Acc_Posi_vel_cmd(double q_dot_bounds_max_comp_Acc_Posi_vel_cmd_0);
+void save_q_dot_bounds_min_comp_Acc_Posi_vel_cmd(double q_dot_bounds_min_comp_Acc_Posi_vel_cmd_0); 
+void save_n_neg_jerk_posi_explored(Eigen::VectorXi n_neg_jerk_posi_explored);
+void save_n_pos_jerk_posi_explored(Eigen::VectorXi n_pos_jerk_posi_explored);
+void save_q_dotdot_real_0(double q_dotdot_real_0);
+void save_q_dotdot_real_1(double q_dotdot_real_1);
+void save_q_dotdot_real_2(double q_dotdot_real_2);
+void save_q_dotdot_real_3(double q_dotdot_real_3);
+void save_q_dotdot_real_4(double q_dotdot_real_4);
+void save_q_dotdot_real_5(double q_dotdot_real_5);
+void save_q_dotdot_real_6(double q_dotdot_real_6);
+void save_q_dotdotdot_gurobi(Eigen::VectorXd q_dddot_gurobi);
+void save_q_n_neg_jerk_posi_reconstr(Eigen::VectorXd q_n_neg_jerk_posi_reconstr);
+void save_q_n_pos_jerk_posi_reconstr(Eigen::VectorXd q_n_pos_jerk_posi_reconstr);
+void save_q_n_neg_jerk_posi_reconstr_explored(Eigen::VectorXd q_n_neg_jerk_posi_reconstr_explored);
+void save_q_n_pos_jerk_posi_reconstr_explored(Eigen::VectorXd q_n_pos_jerk_posi_reconstr_explored);
+void save_q_n_neg_jerk_acc_posi_reconstr(Eigen::VectorXd q_n_neg_jerk_acc_posi_reconstr);
+void save_q_n_pos_jerk_acc_posi_reconstr(Eigen::VectorXd q_n_pos_jerk_acc_posi_reconstr);
+void save_q_dot_n_neg_jerk_reconstr(Eigen::VectorXd q_dot_n_neg_jerk_reconstr);
+void save_q_dot_n_pos_jerk_reconstr(Eigen::VectorXd q_dot_n_pos_jerk_reconstr);
+void save_constr_jerk(int constr_jerk);
+void save_q_n_neg_acc_reconstr(Eigen::VectorXd q_n_neg_acc_reconstr);
+void save_q_n_pos_acc_reconstr(Eigen::VectorXd q_n_pos_acc_reconstr);
+void save_tau_sensor_0(double tau_sensor_0);
+void save_n1_neg_jerk_posi_explored(Eigen::VectorXd n1_neg_jerk_posi_explored);
+void save_n1_pos_jerk_posi_explored(Eigen::VectorXd n1_pos_jerk_posi_explored);
+void save_n2_neg_jerk_posi_explored(Eigen::VectorXd n2_neg_jerk_posi_explored);
+void save_n2_pos_jerk_posi_explored(Eigen::VectorXd n2_pos_jerk_posi_explored);
+void save_n1_neg_jerk_posi_explored_q(Eigen::VectorXd n1_neg_jerk_posi_explored_q);
+void save_n1_pos_jerk_posi_explored_q(Eigen::VectorXd n1_pos_jerk_posi_explored_q);
+void save_n2_neg_jerk_posi_explored_q(Eigen::VectorXd n2_neg_jerk_posi_explored_q);
+void save_n2_pos_jerk_posi_explored_q(Eigen::VectorXd n2_pos_jerk_posi_explored_q);
+void save_small_err(double small_err);
+
+void save_q_n_neg_jerk_acc_posi_reconstr(Eigen::VectorXd q_n_neg_jerk_acc_posi_reconstr);
+void save_q_n_pos_jerk_acc_posi_reconstr(Eigen::VectorXd q_n_pos_jerk_acc_posi_reconstr);
+void save_q_n_neg_Jerk_acc_Posi_reconstr_explored(Eigen::VectorXd q_n_neg_Jerk_acc_Posi_reconstr_explored);
+void save_q_n_pos_Jerk_acc_Posi_reconstr_explored(Eigen::VectorXd q_n_pos_Jerk_acc_Posi_reconstr_explored);
+void save_n1_neg_Jerk_acc_Posi_explored(Eigen::VectorXd n1_neg_Jerk_acc_Posi_explored);
+void save_n1_pos_Jerk_acc_Posi_explored(Eigen::VectorXd n1_pos_Jerk_acc_Posi_explored);
+void save_n2_neg_Jerk_acc_Posi_explored(Eigen::VectorXd n2_neg_Jerk_acc_Posi_explored);
+void save_n2_pos_Jerk_acc_Posi_explored(Eigen::VectorXd n2_pos_Jerk_acc_Posi_explored);
+void save_n3_neg_Jerk_acc_Posi_explored(Eigen::VectorXd n3_neg_Jerk_acc_Posi_explored);
+void save_n3_pos_Jerk_acc_Posi_explored(Eigen::VectorXd n3_pos_Jerk_acc_Posi_explored);
+void save_n1_neg_Jerk_acc_Posi_explored_q(Eigen::VectorXd n1_neg_Jerk_acc_Posi_explored_q);
+void save_n1_pos_Jerk_acc_Posi_explored_q(Eigen::VectorXd n1_pos_Jerk_acc_Posi_explored_q);
+void save_n2_neg_Jerk_acc_Posi_explored_q(Eigen::VectorXd n2_neg_Jerk_acc_Posi_explored_q);
+void save_n2_pos_Jerk_acc_Posi_explored_q(Eigen::VectorXd n2_pos_Jerk_acc_Posi_explored_q);
+void save_n3_neg_Jerk_acc_Posi_explored_q(Eigen::VectorXd n3_neg_Jerk_acc_Posi_explored_q);
+void save_n3_pos_Jerk_acc_Posi_explored_q(Eigen::VectorXd n3_pos_Jerk_acc_Posi_explored_q);
+
+
+void save_n1_neg_jerk_acc_posi(Eigen::VectorXd n1_neg_jerk_acc_posi);
+void save_n1_pos_jerk_acc_posi(Eigen::VectorXd n1_pos_jerk_acc_posi);

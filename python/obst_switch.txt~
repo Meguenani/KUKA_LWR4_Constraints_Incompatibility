@@ -1,0 +1,90 @@
+########MURE########
+def addSphere(world):
+    sphere_world = xrl.createWorldFromUrdfFile("resources/urdf/sphere.xml", "sphere", [0,0,0.1, 1, 0, 0, 0], False, 0.1, 0.01)# , "material.concrete")
+    phy_sphere_world = desc.simple.scene.parseColladaFile("resources/dae/sphere.dae", append_label_library=".physphere", append_label_graph_meshes = ".sphere")
+    desc.simple.graphic.addGraphicalTree(world, sphere_world, node_name="sphere")
+    shpere_node = desc.core.findInTree(sphere_world.scene.graphical_scene.root_node, "node-sphere")		
+    comp_sphere = desc.simple.collision.addCompositeMesh(world, phy_sphere_world, composite_name="sphere.comp", offset=0.00, clean_meshes=False, ignore_library_conflicts=False)
+    #desc.collision.copyFromGraphicalTree(comp_sphere.root_node, sphere_node)    
+    desc.simple.physic.addRigidBody(world, "sphere", mass=1, contact_material="material.concrete")
+    sphere_position = lgsm.Displacementd()
+    #sphere_position.setTranslation(lgsm.vector(0.5,0.1,0.3))
+    desc.simple.physic.addFreeJoint(world, "sphere.joint", "sphere", sphere_position)
+    #Binding graph, phy and coll object
+    sphere_graph_node      = desc.core.findInTree(world.scene.graphical_scene.root_node, "sphere")
+    sphere_phy_node        = desc.physic.findInPhysicalScene(world.scene.physical_scene, "sphere")
+    sphere_graph_node.name = "sphere" # it is suitable to have the same name for both graphics and physics.
+    sphere_phy_node.rigid_body.composite_name="sphere.comp"
+
+
+
+def addObst_1(world):
+    obst_1_world = xrl.createWorldFromUrdfFile("resources/urdf/env11.xml", "obst_1", [0.0,0.05,0.0, 1, 0, 0, 0], True, 0.1, 0.01)
+    phy_obst_1_world = desc.simple.scene.parseColladaFile("resources/dae/env11.dae", append_label_library=".phyobst_1", append_label_graph_meshes = ".obst_1")
+    desc.simple.graphic.addGraphicalTree(world, obst_1_world, node_name="obst_1")
+    shpere_node = desc.core.findInTree(obst_1_world.scene.graphical_scene.root_node, "node-obst_1")		
+    comp_obst_1 = desc.simple.collision.addCompositeMesh(world, phy_obst_1_world, composite_name="obst_1.comp", offset=0.00, clean_meshes=False, ignore_library_conflicts=False)
+    #desc.collision.copyFromGraphicalTree(comp_obst_1.root_node, obst_1_node)    
+    desc.simple.physic.addRigidBody(world, "obst_1", mass=1, contact_material="material.concrete")
+    obst_1_position = lgsm.Displacementd()
+    obst_1_position.setTranslation(lgsm.vector(0.0,0.2,0.0))
+    desc.simple.physic.addFreeJoint(world, "obst_1.joint", "obst_1", obst_1_position)
+    #Binding graph, phy and coll object
+    obst_1_graph_node      = desc.core.findInTree(world.scene.graphical_scene.root_node, "obst_1")
+    obst_1_phy_node        = desc.physic.findInPhysicalScene(world.scene.physical_scene, "obst_1")
+    obst_1_graph_node.name = "obst_1" # it is suitable to have the same name for both graphics and physics.
+    obst_1_phy_node.rigid_body.composite_name="obst_1.comp"
+
+
+
+
+
+
+
+
+#####Mur#####
+def addSphere(world):
+    sphere_world = xrl.createWorldFromUrdfFile("resources/urdf/sphere.xml", "obst_1", [0,0,0.1, 1, 0, 0, 0], False, 0.1, 0.01)# , "material.concrete")
+    phy_sphere_world = desc.simple.scene.parseColladaFile("resources/dae/sphere.dae", append_label_library=".phyobst_1", append_label_graph_meshes = ".obst_1")
+    desc.simple.graphic.addGraphicalTree(world, sphere_world, node_name="obst_1")
+    shpere_node = desc.core.findInTree(sphere_world.scene.graphical_scene.root_node, "node-obst_1")		
+    comp_sphere = desc.simple.collision.addCompositeMesh(world, phy_sphere_world, composite_name="obst_1.comp", offset=0.00, clean_meshes=False, ignore_library_conflicts=False)
+    #desc.collision.copyFromGraphicalTree(comp_sphere.root_node, sphere_node)    
+    desc.simple.physic.addRigidBody(world, "obst_1", mass=1, contact_material="material.concrete")
+    sphere_position = lgsm.Displacementd()
+    #sphere_position.setTranslation(lgsm.vector(0.5,0.1,0.3))
+    desc.simple.physic.addFreeJoint(world, "obst_1.joint", "obst_1", sphere_position)
+    #Binding graph, phy and coll object
+    sphere_graph_node      = desc.core.findInTree(world.scene.graphical_scene.root_node, "obst_1")
+    sphere_phy_node        = desc.physic.findInPhysicalScene(world.scene.physical_scene, "obst_1")
+    sphere_graph_node.name = "obst_1" # it is suitable to have the same name for both graphics and physics.
+    sphere_phy_node.rigid_body.composite_name="sphere.comp"
+
+
+
+def addObst_1(world):
+    obst_1_world = xrl.createWorldFromUrdfFile("resources/urdf/env11.xml", "sphere", [0.0,0.05,0.0, 1, 0, 0, 0], True, 0.1, 0.01)
+    phy_obst_1_world = desc.simple.scene.parseColladaFile("resources/dae/env11.dae", append_label_library=".physphere", append_label_graph_meshes = ".sphere")
+    desc.simple.graphic.addGraphicalTree(world, obst_1_world, node_name="sphere")
+    shpere_node = desc.core.findInTree(obst_1_world.scene.graphical_scene.root_node, "node-sphere")		
+    comp_obst_1 = desc.simple.collision.addCompositeMesh(world, phy_obst_1_world, composite_name="sphere.comp", offset=0.00, clean_meshes=False, ignore_library_conflicts=False)
+    #desc.collision.copyFromGraphicalTree(comp_obst_1.root_node, obst_1_node)    
+    desc.simple.physic.addRigidBody(world, "sphere", mass=1, contact_material="material.concrete")
+    obst_1_position = lgsm.Displacementd()
+    obst_1_position.setTranslation(lgsm.vector(0.0,0.2,0.0))
+    desc.simple.physic.addFreeJoint(world, "sphere.joint", "sphere", obst_1_position)
+    #Binding graph, phy and coll object
+    obst_1_graph_node      = desc.core.findInTree(world.scene.graphical_scene.root_node, "sphere")
+    obst_1_phy_node        = desc.physic.findInPhysicalScene(world.scene.physical_scene, "sphere")
+    obst_1_graph_node.name = "sphere" # it is suitable to have the same name for both graphics and physics.
+    obst_1_phy_node.rigid_body.composite_name="sphere.comp"
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,461 @@
+17:24:02: Creating resource group General
+17:24:02: Creating resource group Internal
+17:24:02: Creating resource group Autodetect
+17:24:02: SceneManagerFactory for type 'DefaultSceneManager' registered.
+17:24:02: Registering ResourceManager for type Material
+17:24:02: Registering ResourceManager for type Mesh
+17:24:02: Registering ResourceManager for type Skeleton
+17:24:02: MovableObjectFactory for type 'ParticleSystem' registered.
+17:24:02: OverlayElementFactory for type Panel registered.
+17:24:02: OverlayElementFactory for type BorderPanel registered.
+17:24:02: OverlayElementFactory for type TextArea registered.
+17:24:02: Registering ResourceManager for type Font
+17:24:02: ArchiveFactory for archive type FileSystem registered.
+17:24:02: ArchiveFactory for archive type Zip registered.
+17:24:02: DDS codec registering
+17:24:02: FreeImage version: 3.15.1
+17:24:02: This program uses FreeImage, a free, open source image library supporting all common bitmap formats. See http://freeimage.sourceforge.net for details
+17:24:02: Supported formats: bmp,ico,jpg,jif,jpeg,jpe,jng,koa,iff,lbm,mng,pbm,pbm,pcd,pcx,pgm,pgm,png,ppm,ppm,ras,tga,targa,tif,tiff,wap,wbmp,wbm,psd,cut,xbm,xpm,gif,hdr,g3,sgi,exr,j2k,j2c,jp2,pfm,pct,pict,pic,3fr,arw,bay,bmq,cap,cine,cr2,crw,cs1,dc2,dcr,drf,dsc,dng,erf,fff,ia,iiq,k25,kc2,kdc,mdc,mef,mos,mrw,nef,nrw,orf,pef,ptx,pxn,qtk,raf,raw,rdc,rw2,rwl,rwz,sr2,srf,sti
+17:24:02: Registering ResourceManager for type HighLevelGpuProgram
+17:24:02: Registering ResourceManager for type Compositor
+17:24:02: MovableObjectFactory for type 'Entity' registered.
+17:24:02: MovableObjectFactory for type 'Light' registered.
+17:24:02: MovableObjectFactory for type 'BillboardSet' registered.
+17:24:02: MovableObjectFactory for type 'ManualObject' registered.
+17:24:02: MovableObjectFactory for type 'BillboardChain' registered.
+17:24:02: MovableObjectFactory for type 'RibbonTrail' registered.
+17:24:02: *-*-* OGRE Initialising
+17:24:02: *-*-* Version 1.7.4 (Cthugha)
+17:24:02: Loading library /usr/lib/x86_64-linux-gnu/OGRE-1.7.4/Plugin_ParticleFX
+17:24:02: Installing plugin: ParticleFX
+17:24:02: Particle Emitter Type 'Point' registered
+17:24:02: Particle Emitter Type 'Box' registered
+17:24:02: Particle Emitter Type 'Ellipsoid' registered
+17:24:02: Particle Emitter Type 'Cylinder' registered
+17:24:02: Particle Emitter Type 'Ring' registered
+17:24:02: Particle Emitter Type 'HollowEllipsoid' registered
+17:24:02: Particle Affector Type 'LinearForce' registered
+17:24:02: Particle Affector Type 'ColourFader' registered
+17:24:02: Particle Affector Type 'ColourFader2' registered
+17:24:02: Particle Affector Type 'ColourImage' registered
+17:24:02: Particle Affector Type 'ColourInterpolator' registered
+17:24:02: Particle Affector Type 'Scaler' registered
+17:24:02: Particle Affector Type 'Rotator' registered
+17:24:02: Particle Affector Type 'DirectionRandomiser' registered
+17:24:02: Particle Affector Type 'DeflectorPlane' registered
+17:24:02: Plugin successfully installed
+17:24:02: Loading library /usr/lib/x86_64-linux-gnu/OGRE-1.7.4/Plugin_BSPSceneManager
+17:24:02: Installing plugin: BSP Scene Manager
+17:24:02: Plugin successfully installed
+17:24:02: Loading library /usr/lib/x86_64-linux-gnu/OGRE-1.7.4/Plugin_PCZSceneManager
+17:24:02: Installing plugin: Portal Connected Zone Scene Manager
+17:24:02: PCZone Factory Type 'ZoneType_Default' registered
+17:24:02: Plugin successfully installed
+17:24:02: Loading library /usr/lib/x86_64-linux-gnu/OGRE-1.7.4/Plugin_OctreeZone
+17:24:02: Installing plugin: Octree Zone Factory
+17:24:02: Plugin successfully installed
+17:24:02: Loading library /usr/lib/x86_64-linux-gnu/OGRE-1.7.4/Plugin_OctreeSceneManager
+17:24:02: Installing plugin: Octree & Terrain Scene Manager
+17:24:02: Plugin successfully installed
+17:24:02: Loading library /usr/lib/x86_64-linux-gnu/OGRE-1.7.4/RenderSystem_GL
+17:24:03: Installing plugin: GL RenderSystem
+17:24:03: OpenGL Rendering Subsystem created.
+17:24:03: Plugin successfully installed
+17:24:03: Added resource location '/home/anis/Desktop/XDE/xde/bin/../share/resources/ogre' of type 'FileSystem' to resource group 'General' with recursive option
+17:24:03: CPU Identifier & Features
+17:24:03: -------------------------
+17:24:03:  *   CPU ID: GenuineIntel: Intel(R) Core(TM) i7-2600 CPU @ 3.40GHz
+17:24:03:  *      SSE: yes
+17:24:03:  *     SSE2: yes
+17:24:03:  *     SSE3: yes
+17:24:03:  *      MMX: yes
+17:24:03:  *   MMXEXT: yes
+17:24:03:  *    3DNOW: no
+17:24:03:  * 3DNOWEXT: no
+17:24:03:  *     CMOV: yes
+17:24:03:  *      TSC: yes
+17:24:03:  *      FPU: yes
+17:24:03:  *      PRO: yes
+17:24:03:  *       HT: no
+17:24:03: -------------------------
+17:24:03: ******************************
+*** Starting GLX Subsystem ***
+******************************
+17:24:03: GLRenderSystem::_createRenderWindow "mainWindow", 800x600 windowed  miscParams: Display Frequency=50 MHz FSAA=0 Full Screen=No RTT Preferred Mode=FBO VSync=No Video Mode=1920 x 1080 sRGB Gamma Conversion=No 
+17:24:03: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource GLX_icon.png in resource group General or any other group. in ResourceGroupManager::openResource at /build/buildd/ogre-1.7.4/OgreMain/src/OgreResourceGroupManager.cpp (line 753)
+17:24:03: GLXWindow::create used FBConfigID = 261
+17:24:03: GL_VERSION = 4.2.0 NVIDIA 304.116
+17:24:03: GL_VENDOR = NVIDIA Corporation
+17:24:03: GL_RENDERER = GeForce GT 520/PCIe/SSE2
+17:24:03: GL_EXTENSIONS = GL_AMD_multi_draw_indirect GL_ARB_base_instance GL_ARB_blend_func_extended GL_ARB_color_buffer_float GL_ARB_compatibility GL_ARB_compressed_texture_pixel_storage GL_ARB_conservative_depth GL_ARB_copy_buffer GL_ARB_depth_buffer_float GL_ARB_depth_clamp GL_ARB_depth_texture GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_indirect GL_ARB_draw_elements_base_vertex GL_ARB_draw_instanced GL_ARB_ES2_compatibility GL_ARB_explicit_attrib_location GL_ARB_fragment_coord_conventions GL_ARB_fragment_program GL_ARB_fragment_program_shadow GL_ARB_fragment_shader GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_geometry_shader4 GL_ARB_get_program_binary GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_imaging GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multisample GL_ARB_multitexture GL_ARB_occlusion_query GL_ARB_occlusion_query2 GL_ARB_pixel_buffer_object GL_ARB_point_parameters GL_ARB_point_sprite GL_ARB_provoking_vertex GL_ARB_robustness GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counters GL_ARB_shader_bit_encoding GL_ARB_shader_image_load_store GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_subroutine GL_ARB_shader_texture_lod GL_ARB_shading_language_100 GL_ARB_shading_language_420pack GL_ARB_shading_language_include GL_ARB_shading_language_packing GL_ARB_shadow GL_ARB_sync GL_ARB_tessellation_shader GL_ARB_texture_border_clamp GL_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_compression GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map GL_ARB_texture_cube_map_array GL_ARB_texture_env_add GL_ARB_texture_env_combine GL_ARB_texture_env_crossbar GL_ARB_texture_env_dot3 GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirrored_repeat GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_storage GL_ARB_texture_swizzle GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transpose_matrix GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex_buffer_object GL_ARB_vertex_program GL_ARB_vertex_shader GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ARB_window_pos GL_ATI_draw_buffers GL_ATI_texture_float GL_ATI_texture_mirror_once GL_S3_s3tc GL_EXT_texture_env_add GL_EXT_abgr GL_EXT_bgra GL_EXT_bindable_uniform GL_EXT_blend_color GL_EXT_blend_equation_separate GL_EXT_blend_func_separate GL_EXT_blend_minmax GL_EXT_blend_subtract GL_EXT_compiled_vertex_array GL_EXT_Cg_shader GL_EXT_depth_bounds_test GL_EXT_direct_state_access GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_draw_range_elements GL_EXT_fog_coord GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXTX_framebuffer_mixed_formats GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_geometry_shader4 GL_EXT_gpu_program_parameters GL_EXT_gpu_shader4 GL_EXT_multi_draw_arrays GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_packed_pixels GL_EXT_pixel_buffer_object GL_EXT_point_parameters GL_EXT_provoking_vertex GL_EXT_rescale_normal GL_EXT_secondary_color GL_EXT_separate_shader_objects GL_EXT_separate_specular_color GL_EXT_shader_image_load_store GL_EXT_shadow_funcs GL_EXT_stencil_two_side GL_EXT_stencil_wrap GL_EXT_texture3D GL_EXT_texture_array GL_EXT_texture_buffer_object GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_latc GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_cube_map GL_EXT_texture_edge_clamp GL_EXT_texture_env_combine GL_EXT_texture_env_dot3 GL_EXT_texture_filter_anisotropic GL_EXT_texture_format_BGRA8888 GL_EXT_texture_integer GL_EXT_texture_lod GL_EXT_texture_lod_bias GL_EXT_texture_mirror_clamp GL_EXT_texture_object GL_EXT_texture_shared_exponent GL_EXT_texture_sRGB GL_EXT_texture_sRGB_decode GL_EXT_texture_storage GL_EXT_texture_swizzle GL_EXT_texture_type_2_10_10_10_REV GL_EXT_timer_query GL_EXT_transform_feedback2 GL_EXT_vertex_array GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_EXT_x11_sync_object GL_EXT_import_sync_object GL_IBM_rasterpos_clip GL_IBM_texture_mirrored_repeat GL_KTX_buffer_region GL_NV_alpha_test GL_NV_blend_minmax GL_NV_blend_square GL_NV_complex_primitives GL_NV_conditional_render GL_NV_copy_depth_to_color GL_NV_copy_image GL_NV_depth_buffer_float GL_NV_depth_clamp GL_NV_ES1_1_compatibility GL_NV_explicit_multisample GL_NV_fbo_color_attachments GL_NV_fence GL_NV_float_buffer GL_NV_fog_distance GL_NV_fragdepth GL_NV_fragment_program GL_NV_fragment_program_option GL_NV_fragment_program2 GL_NV_framebuffer_multisample_coverage GL_NV_geometry_shader4 GL_NV_gpu_program4 GL_NV_gpu_program4_1 GL_NV_gpu_program5 GL_NV_gpu_program_fp64 GL_NV_gpu_shader5 GL_NV_half_float GL_NV_light_max_exponent GL_NV_multisample_coverage GL_NV_multisample_filter_hint GL_NV_occlusion_query GL_NV_packed_depth_stencil GL_NV_parameter_buffer_object GL_NV_parameter_buffer_object2 GL_NV_path_rendering GL_NV_pixel_data_range GL_NV_point_sprite GL_NV_primitive_restart GL_NV_register_combiners GL_NV_register_combiners2 GL_NV_shader_atomic_counters GL_NV_shader_atomic_float GL_NV_shader_buffer_load GL_NV_texgen_reflection GL_NV_texture_barrier GL_NV_texture_compression_vtc GL_NV_texture_env_combine4 GL_NV_texture_expand_normal GL_NV_texture_lod_clamp GL_NV_texture_multisample GL_NV_texture_rectangle GL_NV_texture_shader GL_NV_texture_shader2 GL_NV_texture_shader3 GL_NV_transform_feedback GL_NV_transform_feedback2 GL_NV_vdpau_interop GL_NV_vertex_array_range GL_NV_vertex_array_range2 GL_NV_vertex_attrib_integer_64bit GL_NV_vertex_buffer_unified_memory GL_NV_vertex_program GL_NV_vertex_program1_1 GL_NV_vertex_program2 GL_NV_vertex_program2_option GL_NV_vertex_program3 GL_NVX_conditional_render GL_NVX_gpu_memory_info GL_OES_compressed_paletted_texture GL_OES_depth24 GL_OES_depth32 GL_OES_depth_texture GL_OES_element_index_uint GL_OES_fbo_render_mipmap GL_OES_get_program_binary GL_OES_mapbuffer GL_OES_packed_depth_stencil GL_OES_point_size_array GL_OES_point_sprite GL_OES_rgb8_rgba8 GL_OES_read_format GL_OES_standard_derivatives GL_OES_texture_3D GL_OES_texture_float GL_OES_texture_float_linear GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_texture_npot GL_OES_vertex_array_object GL_OES_vertex_half_float GL_SGIS_generate_mipmap GL_SGIS_texture_lod GL_SGIX_depth_texture GL_SGIX_shadow GL_SUN_slice_accum 
+17:24:03: Supported GLX extensions: GLX_EXT_visual_info GLX_EXT_visual_rating GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGI_video_sync GLX_SGI_swap_control GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_texture_from_pixmap GLX_ARB_create_context GLX_ARB_create_context_profile GLX_EXT_create_context_es2_profile GLX_ARB_create_context_robustness GLX_ARB_multisample GLX_NV_float_buffer GLX_ARB_fbconfig_float GLX_EXT_framebuffer_sRGB GLX_NV_multisample_coverage GLX_ARB_get_proc_address 
+17:24:03: ***************************
+17:24:03: *** GL Renderer Started ***
+17:24:03: ***************************
+17:24:03: Registering ResourceManager for type GpuProgram
+17:24:03: GLSL support detected
+17:24:03: GL: Using GL_EXT_framebuffer_object for rendering to textures (best)
+17:24:03: FBO PF_UNKNOWN depth/stencil support: D16S0 D24S0 D32S0 Packed-D24S8 
+17:24:03: FBO PF_L8 depth/stencil support: D0S0 D16S0 D24S0 D32S0 Packed-D24S8 
+17:24:03: FBO PF_A8 depth/stencil support: D0S0 D16S0 D24S0 D32S0 Packed-D24S8 
+17:24:03: FBO PF_A4L4 depth/stencil support: D0S0 D16S0 D24S0 D32S0 Packed-D24S8 
+17:24:03: FBO PF_BYTE_LA depth/stencil support: D0S0 D16S0 D24S0 D32S0 Packed-D24S8 
+17:24:03: FBO PF_R5G6B5 depth/stencil support: D0S0 D16S0 D24S0 D32S0 Packed-D24S8 
+17:24:03: FBO PF_B5G6R5 depth/stencil support: D0S0 D16S0 D24S0 D32S0 Packed-D24S8 
+17:24:03: FBO PF_A4R4G4B4 depth/stencil support: D0S0 D16S0 D24S0 D32S0 Packed-D24S8 
+17:24:03: FBO PF_A1R5G5B5 depth/stencil support: D0S0 D16S0 D24S0 D32S0 Packed-D24S8 
+17:24:03: FBO PF_R8G8B8 depth/stencil support: D0S0 D16S0 D24S0 D32S0 Packed-D24S8 
+17:24:03: FBO PF_B8G8R8 depth/stencil support: D0S0 D16S0 D24S0 D32S0 Packed-D24S8 
+17:24:03: FBO PF_A8R8G8B8 depth/stencil support: D0S0 D16S0 D24S0 D32S0 Packed-D24S8 
+17:24:03: FBO PF_B8G8R8A8 depth/stencil support: D0S0 D16S0 D24S0 D32S0 Packed-D24S8 
+17:24:03: FBO PF_A2R10G10B10 depth/stencil support: D0S0 D16S0 D24S0 D32S0 Packed-D24S8 
+17:24:03: FBO PF_A2B10G10R10 depth/stencil support: D0S0 D16S0 D24S0 D32S0 Packed-D24S8 
+17:24:03: FBO PF_FLOAT16_RGB depth/stencil support: D0S0 D16S0 D24S0 D32S0 Packed-D24S8 
+17:24:03: FBO PF_FLOAT16_RGBA depth/stencil support: D0S0 D16S0 D24S0 D32S0 Packed-D24S8 
+17:24:03: FBO PF_FLOAT32_RGB depth/stencil support: D0S0 D16S0 D24S0 D32S0 Packed-D24S8 
+17:24:03: FBO PF_FLOAT32_RGBA depth/stencil support: D0S0 D16S0 D24S0 D32S0 Packed-D24S8 
+17:24:03: FBO PF_X8R8G8B8 depth/stencil support: D0S0 D16S0 D24S0 D32S0 Packed-D24S8 
+17:24:03: FBO PF_X8B8G8R8 depth/stencil support: D0S0 D16S0 D24S0 D32S0 Packed-D24S8 
+17:24:03: FBO PF_SHORT_RGBA depth/stencil support: D0S0 D16S0 D24S0 D32S0 Packed-D24S8 
+17:24:03: FBO PF_R3G3B2 depth/stencil support: D0S0 D16S0 D24S0 D32S0 Packed-D24S8 
+17:24:03: FBO PF_FLOAT16_R depth/stencil support: D0S0 D16S0 D24S0 D32S0 Packed-D24S8 
+17:24:03: FBO PF_FLOAT32_R depth/stencil support: D0S0 D16S0 D24S0 D32S0 Packed-D24S8 
+17:24:03: FBO PF_FLOAT16_GR depth/stencil support: D0S0 D16S0 D24S0 D32S0 Packed-D24S8 
+17:24:03: FBO PF_FLOAT32_GR depth/stencil support: D0S0 D16S0 D24S0 D32S0 Packed-D24S8 
+17:24:03: FBO PF_SHORT_RGB depth/stencil support: D0S0 D16S0 D24S0 D32S0 Packed-D24S8 
+17:24:03: [GL] : Valid FBO targets PF_UNKNOWN PF_L8 PF_A8 PF_A4L4 PF_BYTE_LA PF_R5G6B5 PF_B5G6R5 PF_A4R4G4B4 PF_A1R5G5B5 PF_R8G8B8 PF_B8G8R8 PF_A8R8G8B8 PF_B8G8R8A8 PF_A2R10G10B10 PF_A2B10G10R10 PF_FLOAT16_RGB PF_FLOAT16_RGBA PF_FLOAT32_RGB PF_FLOAT32_RGBA PF_X8R8G8B8 PF_X8B8G8R8 PF_SHORT_RGBA PF_R3G3B2 PF_FLOAT16_R PF_FLOAT32_R PF_FLOAT16_GR PF_FLOAT32_GR PF_SHORT_RGB 
+17:24:03: RenderSystem capabilities
+17:24:03: -------------------------
+17:24:03: RenderSystem Name: OpenGL Rendering Subsystem
+17:24:03: GPU Vendor: nvidia
+17:24:03: Device Name: GeForce GT 520/PCIe/SSE2
+17:24:03: Driver Version: 4.2.0.0
+17:24:03:  * Fixed function pipeline: yes
+17:24:03:  * Hardware generation of mipmaps: yes
+17:24:03:  * Texture blending: yes
+17:24:03:  * Anisotropic texture filtering: yes
+17:24:03:  * Dot product texture operation: yes
+17:24:03:  * Cube mapping: yes
+17:24:03:  * Hardware stencil buffer: yes
+17:24:03:    - Stencil depth: 8
+17:24:03:    - Two sided stencil support: yes
+17:24:03:    - Wrap stencil values: yes
+17:24:03:  * Hardware vertex / index buffers: yes
+17:24:03:  * Vertex programs: yes
+17:24:03:  * Number of floating-point constants for vertex programs: 1024
+17:24:03:  * Number of integer constants for vertex programs: 0
+17:24:03:  * Number of boolean constants for vertex programs: 0
+17:24:03:  * Fragment programs: yes
+17:24:03:  * Number of floating-point constants for fragment programs: 512
+17:24:03:  * Number of integer constants for fragment programs: 0
+17:24:03:  * Number of boolean constants for fragment programs: 0
+17:24:03:  * Geometry programs: yes
+17:24:03:  * Number of floating-point constants for geometry programs: 2048
+17:24:03:  * Number of integer constants for geometry programs: 0
+17:24:03:  * Number of boolean constants for geometry programs: 0
+17:24:03:  * Supported Shader Profiles: arbfp1 arbvp1 fp20 fp30 fp40 glsl gp4gp gp4vp gpu_gp gpu_vp nvgp4 vp30 vp40
+17:24:03:  * Texture Compression: yes
+17:24:03:    - DXT: yes
+17:24:03:    - VTC: yes
+17:24:03:    - PVRTC: no
+17:24:03:  * Scissor Rectangle: yes
+17:24:03:  * Hardware Occlusion Query: yes
+17:24:03:  * User clip planes: yes
+17:24:03:  * VET_UBYTE4 vertex element type: yes
+17:24:03:  * Infinite far plane projection: yes
+17:24:03:  * Hardware render-to-texture: yes
+17:24:03:  * Floating point textures: yes
+17:24:03:  * Non-power-of-two textures: yes
+17:24:03:  * Volume textures: yes
+17:24:03:  * Multiple Render Targets: 8
+17:24:03:    - With different bit depths: yes
+17:24:03:  * Point Sprites: yes
+17:24:03:  * Extended point parameters: yes
+17:24:03:  * Max Point Size: 63.375
+17:24:03:  * Vertex texture fetch: yes
+17:24:03:  * Number of world matrices: 0
+17:24:03:  * Number of texture units: 32
+17:24:03:  * Stencil buffer depth: 8
+17:24:03:  * Number of vertex blend matrices: 0
+17:24:03:    - Max vertex textures: 32
+17:24:03:    - Vertex textures shared: yes
+17:24:03:  * Render to Vertex Buffer : yes
+17:24:03:  * GL 1.5 without VBO workaround: no
+17:24:03:  * Frame Buffer objects: yes
+17:24:03:  * Frame Buffer objects (ARB extension): no
+17:24:03:  * Frame Buffer objects (ATI extension): no
+17:24:03:  * PBuffer support: yes
+17:24:03:  * GL 1.5 without HW-occlusion workaround: no
+17:24:03: Registering ResourceManager for type Texture
+17:24:03: DefaultWorkQueue('Root') initialising on thread 0x7fac50005ec0.
+17:24:03: DefaultWorkQueue('Root')::WorkerFunc - thread 0x7fac5035a3d0 starting.
+17:24:03: DefaultWorkQueue('Root')::WorkerFunc - thread 0x7fac5009bbe0 starting.
+17:24:03: DefaultWorkQueue('Root')::WorkerFunc - thread 0x7fac50362c60 starting.
+17:24:03: DefaultWorkQueue('Root')::WorkerFunc - thread 0x7fac50363ab0 starting.
+17:24:03: DefaultWorkQueue('Root')::WorkerFunc - thread 0x7fac5035fd10 starting.
+17:24:03: DefaultWorkQueue('Root')::WorkerFunc - thread 0x7fac503616d0 starting.
+17:24:03: DefaultWorkQueue('Root')::WorkerFunc - thread 0x7fac50361c10 starting.
+17:24:03: DefaultWorkQueue('Root')::WorkerFunc - thread 0x7fac50361f60 starting.
+17:24:03: Particle Renderer Type 'billboard' registered
+17:24:03: SceneManagerFactory for type 'BspSceneManager' registered.
+17:24:03: Registering ResourceManager for type BspLevel
+17:24:03: SceneManagerFactory for type 'PCZSceneManager' registered.
+17:24:03: MovableObjectFactory for type 'PCZLight' registered.
+17:24:03: MovableObjectFactory for type 'Portal' registered.
+17:24:03: MovableObjectFactory for type 'AntiPortal' registered.
+17:24:03: PCZone Factory Type 'ZoneType_Octree' registered
+17:24:03: PCZone Factory Type 'ZoneType_Terrain' registered
+17:24:03: SceneManagerFactory for type 'OctreeSceneManager' registered.
+17:24:03: SceneManagerFactory for type 'TerrainSceneManager' registered.
+17:24:03: Parsing scripts for resource group Autodetect
+17:24:03: Finished parsing scripts for resource group Autodetect
+17:24:03: Parsing scripts for resource group General
+17:24:03: Parsing script materials/ssao/diffuse.program
+17:24:03: Parsing script materials/ssao/ambient.program
+17:24:03: Parsing script materials/ssao/shadow_caster.program
+17:24:03: Parsing script materials/ssao/ssao.program
+17:24:03: Parsing script version.material
+17:24:03: Parsing script materials/cloud.material
+17:24:03: GLSL compiling: shader/cloudSFP
+17:24:03: GLSL compiled : shader/cloudSFP0(15) : warning C7011: implicit cast from "int" to "float"
+
+17:24:03: GLSL compiling: shader/cloudSVP
+17:24:03: GLSL compiled : shader/cloudSVP
+17:24:03: GLSL compiling: shader/fluidSFP
+17:24:03: GLSL compiled : shader/fluidSFP
+17:24:03: GLSL compiling: shader/fluidSVP
+17:24:03: GLSL compiled : shader/fluidSVP
+17:24:03: Parsing script materials/navmesh.material
+17:24:03: Parsing script materials/cable.material
+17:24:03: Parsing script materials/template.material
+17:24:03: Parsing script materials/TemplateCore.material
+17:24:03: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource materials/programs/PlainColor-vert.glsl in resource group General or any other group. in ResourceGroupManager::openResource at /build/buildd/ogre-1.7.4/OgreMain/src/OgreResourceGroupManager.cpp (line 753)
+17:24:03: High-level program PlainColor-vert encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource materials/programs/PlainColor-vert.glsl in resource group General or any other group. in ResourceGroupManager::openResource at /build/buildd/ogre-1.7.4/OgreMain/src/OgreResourceGroupManager.cpp (line 753)
+17:24:03: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource materials/programs/PlainColor-frag.glsl in resource group General or any other group. in ResourceGroupManager::openResource at /build/buildd/ogre-1.7.4/OgreMain/src/OgreResourceGroupManager.cpp (line 753)
+17:24:03: High-level program PlainColor-frag encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource materials/programs/PlainColor-frag.glsl in resource group General or any other group. in ResourceGroupManager::openResource at /build/buildd/ogre-1.7.4/OgreMain/src/OgreResourceGroupManager.cpp (line 753)
+17:24:03: GLSL compiling: Distance-vert
+17:24:03: GLSL compiled : Distance-vert
+17:24:03: GLSL compiling: Distance-frag
+17:24:03: GLSL compiled : Distance-frag
+17:24:03: Parsing script materials/giga.material
+17:24:03: GLSL compiling: shader/gilgaFP
+17:24:03: GLSL compiled : shader/gilgaFP
+17:24:03: GLSL compiling: shader/gilgaAmbientFP
+17:24:03: GLSL compiled : shader/gilgaAmbientFP
+17:24:03: GLSL compiling: shader/gilgaSelectionFP
+17:24:03: GLSL compiled : shader/gilgaSelectionFP
+17:24:03: GLSL compiling: gilga/shadow/ReceiverVP
+17:24:03: GLSL compiled : gilga/shadow/ReceiverVP
+17:24:03: GLSL compiling: gilga/shadow/ReceiverFPPCF16
+17:24:03: GLSL compiled : gilga/shadow/ReceiverFPPCF16
+17:24:03: GLSL compiling: shader/gilgaVP
+17:24:03: GLSL compiled : shader/gilgaVP
+17:24:03: GLSL compiling: shader/gilgaAmbientVP
+17:24:03: GLSL compiled : shader/gilgaAmbientVP
+17:24:03: Parsing script materials/Signal.material
+17:24:03: GLSL compiling: signalV
+17:24:03: GLSL compiled : signalV0(7) : warning C7011: implicit cast from "int" to "float"
+
+17:24:03: GLSL compiling: signalF
+17:24:03: GLSL compiled : signalF
+17:24:03: Parsing script materials/volumeLines.material
+17:24:03: Parsing script materials/fluid.material
+17:24:03: GLSL compiling: fluid/fluidVS
+17:24:03: GLSL compiled : fluid/fluidVS
+17:24:03: GLSL compiling: fluid/fluidFS
+17:24:03: GLSL compiled : fluid/fluidFS0(44) : warning C7011: implicit cast from "int" to "float"
+
+17:24:03: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource materials/programs/fluidPinky.frag in resource group General or any other group. in ResourceGroupManager::openResource at /build/buildd/ogre-1.7.4/OgreMain/src/OgreResourceGroupManager.cpp (line 753)
+17:24:03: High-level program fluid/pinky encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource materials/programs/fluidPinky.frag in resource group General or any other group. in ResourceGroupManager::openResource at /build/buildd/ogre-1.7.4/OgreMain/src/OgreResourceGroupManager.cpp (line 753)
+17:24:03: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at /build/buildd/ogre-1.7.4/OgreMain/src/OgreGpuProgramParams.cpp (line 1425)
+17:24:03: Compiler error: invalid parameters in materials/fluid.material(120): setting of constant failed
+17:24:03: GLSL compiling: fluid/fluidFirstFS
+17:24:03: GLSL compiled : fluid/fluidFirstFS
+17:24:03: GLSL compiling: fluid/QuadVS
+17:24:03: GLSL compiled : fluid/QuadVS
+17:24:03: GLSL compiling: fluid/compositor/fluid1
+17:24:03: GLSL compiled : fluid/compositor/fluid10(36) : warning C7011: implicit cast from "int" to "float"
+
+17:24:03: Parsing script materials/xde.material
+17:24:03: Parsing script materials/sky.material
+17:24:03: Parsing script materials/skinning/lqskinning_gl.material
+17:24:03: GLSL compiling: Animated_VP
+17:24:03: GLSL compiled : Animated_VP
+17:24:03: GLSL compiling: Animated_FP
+17:24:03: GLSL compiled : Animated_FP
+17:24:03: GLSL compiling: Animated_FP_tex
+17:24:03: GLSL compiled : Animated_FP_tex
+17:24:03: Parsing script materials/skinning/lqskinning_nm.material
+17:24:03: Parsing script materials/skinning/dqskinning.material
+17:24:03: GLSL compiling: DQsimple_VP
+17:24:03: GLSL compiled : DQsimple_VP0(23) : warning C7011: implicit cast from "int" to "float"
+0(23) : warning C7011: implicit cast from "int" to "float"
+0(23) : warning C7011: implicit cast from "int" to "float"
+0(23) : warning C7011: implicit cast from "int" to "float"
+0(24) : warning C7011: implicit cast from "int" to "float"
+0(24) : warning C7011: implicit cast from "int" to "float"
+0(24) : warning C7011: implicit cast from "int" to "float"
+0(24) : warning C7011: implicit cast from "int" to "float"
+0(25) : warning C7011: implicit cast from "int" to "float"
+0(25) : warning C7011: implicit cast from "int" to "float"
+0(25) : warning C7011: implicit cast from "int" to "float"
+0(25) : warning C7011: implicit cast from "int" to "float"
+0(27) : warning C7011: implicit cast from "int" to "float"
+0(27) : warning C7011: implicit cast from "int" to "float"
+0(27) : warning C7011: implicit cast from "int" to "float"
+0(27) : warning C7011: implicit cast from "int" to "float"
+0(28) : warning C7011: implicit cast from "int" to "float"
+0(28) : warning C7011: implicit cast from "int" to "float"
+0(28) : warning C7011: implicit cast from "int" to "float"
+0(28) : warning C7011: implicit cast from "int" to "float"
+0(29) : warning C7011: implicit cast from "int" to "float"
+0(29) : warning C7011: implicit cast from "int" to "float"
+0(29) : warning C7011: implicit cast from "int" to "float"
+0(29) : warning C7011: implicit cast from "int" to "float"
+0(56) : warning C7532: global function transpose requires "#version 120" or later
+0(58) : warning C7536: OpenGL does not allow matrix casts without #version 120 or later
+
+17:24:03: GLSL compiling: DQsimple_VP_debug
+17:24:03: GLSL compiled : DQsimple_VP_debug0(26) : warning C7011: implicit cast from "int" to "float"
+0(26) : warning C7011: implicit cast from "int" to "float"
+0(26) : warning C7011: implicit cast from "int" to "float"
+0(26) : warning C7011: implicit cast from "int" to "float"
+0(27) : warning C7011: implicit cast from "int" to "float"
+0(27) : warning C7011: implicit cast from "int" to "float"
+0(27) : warning C7011: implicit cast from "int" to "float"
+0(27) : warning C7011: implicit cast from "int" to "float"
+0(28) : warning C7011: implicit cast from "int" to "float"
+0(28) : warning C7011: implicit cast from "int" to "float"
+0(28) : warning C7011: implicit cast from "int" to "float"
+0(28) : warning C7011: implicit cast from "int" to "float"
+0(30) : warning C7011: implicit cast from "int" to "float"
+0(30) : warning C7011: implicit cast from "int" to "float"
+0(30) : warning C7011: implicit cast from "int" to "float"
+0(30) : warning C7011: implicit cast from "int" to "float"
+0(31) : warning C7011: implicit cast from "int" to "float"
+0(31) : warning C7011: implicit cast from "int" to "float"
+0(31) : warning C7011: implicit cast from "int" to "float"
+0(31) : warning C7011: implicit cast from "int" to "float"
+0(32) : warning C7011: implicit cast from "int" to "float"
+0(32) : warning C7011: implicit cast from "int" to "float"
+0(32) : warning C7011: implicit cast from "int" to "float"
+0(32) : warning C7011: implicit cast from "int" to "float"
+0(63) : warning C7532: global function transpose requires "#version 120" or later
+0(65) : warning C7536: OpenGL does not allow matrix casts without #version 120 or later
+0(81) : warning C7011: implicit cast from "int" to "float"
+0(83) : warning C7011: implicit cast from "int" to "float"
+0(85) : warning C7011: implicit cast from "int" to "float"
+0(87) : warning C7011: implicit cast from "int" to "float"
+0(90) : warning C7011: implicit cast from "int" to "float"
+0(92) : warning C7011: implicit cast from "int" to "float"
+0(94) : warning C7011: implicit cast from "int" to "float"
+0(96) : warning C7011: implicit cast from "int" to "float"
+0(99) : warning C7011: implicit cast from "int" to "float"
+0(101) : warning C7011: implicit cast from "int" to "float"
+0(103) : warning C7011: implicit cast from "int" to "float"
+0(105) : warning C7011: implicit cast from "int" to "float"
+
+17:24:03: GLSL compiling: DQAnimated_FP
+17:24:03: GLSL compiled : DQAnimated_FP
+17:24:03: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource materials/skinning/testlight_frag.glsl in resource group General or any other group. in ResourceGroupManager::openResource at /build/buildd/ogre-1.7.4/OgreMain/src/OgreResourceGroupManager.cpp (line 753)
+17:24:03: High-level program DQAnimated_FP_debug encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource materials/skinning/testlight_frag.glsl in resource group General or any other group. in ResourceGroupManager::openResource at /build/buildd/ogre-1.7.4/OgreMain/src/OgreResourceGroupManager.cpp (line 753)
+17:24:03: GLSL compiling: DQAnimated_FP
+17:24:03: GLSL compiled : DQAnimated_FP
+17:24:03: GLSL compiling: Animated_FP_tex
+17:24:03: GLSL compiled : Animated_FP_tex
+17:24:03: Parsing script materials/shadow/Shadowmap.material
+17:24:03: GLSL compiling: Ogre/Shadowmap/CasterVP
+17:24:03: GLSL compiled : Ogre/Shadowmap/CasterVP
+17:24:03: GLSL compiling: Ogre/Shadowmap/CasterFP
+17:24:03: GLSL compiled : Ogre/Shadowmap/CasterFP
+17:24:03: GLSL compiling: Ogre/Shadowmap/ReceiverVP
+17:24:03: GLSL compiled : Ogre/Shadowmap/ReceiverVP0(29) : warning C7011: implicit cast from "int" to "float"
+
+17:24:03: GLSL compiling: Ogre/Shadowmap/ReceiverFP
+17:24:03: GLSL compiled : Ogre/Shadowmap/ReceiverFP
+17:24:03: GLSL compiling: Ogre/Shadowmap/ReceiverFPPCF
+17:24:03: GLSL compiled : Ogre/Shadowmap/ReceiverFPPCF
+17:24:03: GLSL compiling: Ogre/Shadowmap/ReceiverFPPCF16
+17:24:03: GLSL compiled : Ogre/Shadowmap/ReceiverFPPCF160(30) : warning C7011: implicit cast from "int" to "float"
+
+17:24:03: GLSL compiling: Ogre/Shadowmap/NormalMapReceiverVP
+17:24:03: GLSL compiled : Ogre/Shadowmap/NormalMapReceiverVP
+17:24:03: GLSL compiling: Ogre/Shadowmap/NormalMapReceiverFP
+17:24:03: GLSL compiled : Ogre/Shadowmap/NormalMapReceiverFP
+17:24:03: GLSL compiling: Ogre/Shadowmap/NormalMapReceiverFPPCF
+17:24:03: GLSL compiled : Ogre/Shadowmap/NormalMapReceiverFPPCF
+17:24:03: GLSL compiling: Ogre/BasicVertexPrograms/AmbientOneTextureGLSL
+17:24:03: GLSL compiled : Ogre/BasicVertexPrograms/AmbientOneTextureGLSL
+17:24:03: Compiler error: reference to a non existing object in materials/shadow/Shadowmap.material(298)
+17:24:03: Compiler error: reference to a non existing object in materials/shadow/Shadowmap.material(298)
+17:24:03: Compiler error: reference to a non existing object in materials/shadow/Shadowmap.material(298)
+17:24:03: Compiler error: reference to a non existing object in materials/shadow/Shadowmap.material(298)
+17:24:03: Parsing script materials/shadow/DepthShadowmap.material
+17:24:03: GLSL compiling: Ogre/DepthShadowmap/CasterVP_GLSL
+17:24:03: GLSL compiled : Ogre/DepthShadowmap/CasterVP_GLSL
+17:24:03: GLSL compiling: Ogre/DepthShadowmap/CasterFP_GLSL
+17:24:03: GLSL compiled : Ogre/DepthShadowmap/CasterFP_GLSL
+17:24:03: GLSL compiling: Ogre/DepthShadowmap/ReceiverVP_GLSL
+17:24:03: GLSL compiled : Ogre/DepthShadowmap/ReceiverVP_GLSL
+17:24:03: GLSL compiling: Ogre/DepthShadowmap/ReceiverFP_GLSL
+17:24:03: GLSL compiled : Ogre/DepthShadowmap/ReceiverFP_GLSL
+17:24:03: GLSL compiling: Ogre/DepthShadowmap/ReceiverFPPCF_GLSL
+17:24:03: GLSL compiled : Ogre/DepthShadowmap/ReceiverFPPCF_GLSL
+17:24:03: GLSL compiling: Ogre/DepthShadowmap/NormalMapReceiverVP_GLSL
+17:24:03: GLSL compiled : Ogre/DepthShadowmap/NormalMapReceiverVP_GLSL
+17:24:03: GLSL compiling: Ogre/DepthShadowmap/NormalMapReceiverFP_GLSL
+17:24:03: GLSL compiled : Ogre/DepthShadowmap/NormalMapReceiverFP_GLSL
+17:24:03: GLSL compiling: Ogre/DepthShadowmap/NormalMapReceiverFPPCF_GLSL
+17:24:03: GLSL compiled : Ogre/DepthShadowmap/NormalMapReceiverFPPCF_GLSL
+17:24:03: GLSL compiling: Ogre/BasicVertexPrograms/AmbientOneTextureGLSL
+17:24:03: GLSL compiled : Ogre/BasicVertexPrograms/AmbientOneTextureGLSL
+17:24:03: Parsing script materials/ssao/shadow_caster.material
+17:24:03: Parsing script materials/ssao/metal.material
+17:24:03: Parsing script materials/ssao/diffuse.material
+17:24:03: Parsing script materials/ssao/ssao.material
+17:24:03: GLSL compiling: ssao_fp
+17:24:03: GLSL compiled : ssao_fp0(43) : warning C7549: OpenGL does not allow C style initializers
+0(43) : warning C7553: OpenGL array assignments require #version 120
+0(43) : warning C7549: OpenGL does not allow C style initializers
+0(43) : warning C7553: OpenGL array assignments require #version 120
+
+17:24:03: GLSL compiling: ssaoblend_ps
+17:24:03: GLSL compiled : ssaoblend_ps
+17:24:03: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource materials/ssao/ssaoVp.glsl in resource group General or any other group. in ResourceGroupManager::openResource at /build/buildd/ogre-1.7.4/OgreMain/src/OgreResourceGroupManager.cpp (line 753)
+17:24:03: High-level program ssao_vp encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource materials/ssao/ssaoVp.glsl in resource group General or any other group. in ResourceGroupManager::openResource at /build/buildd/ogre-1.7.4/OgreMain/src/OgreResourceGroupManager.cpp (line 753)
+17:24:03: GLSL compiling: ssaoblend_vs
+17:24:03: GLSL compiled : ssaoblend_vs
+17:24:03: Parsing script materials/ssao/colours.material
+17:24:03: Parsing script materials/ssao/ssao.compositor
+17:24:03: Parsing script fonts/Template.fontdef
+17:24:03: Parsing script materials/core.overlay
+17:24:03: Texture: textures/cross_white.png: Loading 1 faces(PF_A8R8G8B8,31x31x1) with 4 generated mipmaps from Image. Internal format is PF_A8R8G8B8,31x31x1.
+17:24:03: Finished parsing scripts for resource group General
+17:24:03: Parsing scripts for resource group Internal
+17:24:03: Finished parsing scripts for resource group Internal
+17:24:03: Texture: textures/load.png: Loading 1 faces(PF_A8R8G8B8,800x600x1) with 5 generated mipmaps from Image. Internal format is PF_A8R8G8B8,800x600x1.
+17:24:03: Texture: textures/knob_empty.png: Loading 1 faces(PF_A8R8G8B8,250x250x1) with 5 generated mipmaps from Image. Internal format is PF_A8R8G8B8,250x250x1.
+17:24:03: Texture: textures/knob_full.png: Loading 1 faces(PF_A8R8G8B8,250x250x1) with 5 generated mipmaps from Image. Internal format is PF_A8R8G8B8,250x250x1.
+17:24:03: Texture: textures/cursor.png: Loading 1 faces(PF_A8R8G8B8,32x32x1) with 5 generated mipmaps from Image. Internal format is PF_A8R8G8B8,32x32x1.
+17:24:03: Texture: textures/cursor2.png: Loading 1 faces(PF_A8R8G8B8,64x64x1) with 5 generated mipmaps from Image. Internal format is PF_A8R8G8B8,64x64x1.
+17:24:03: Texture: textures/floor2_black.png: Loading 1 faces(PF_A8R8G8B8,512x512x1) with 5 generated mipmaps from Image. Internal format is PF_A8R8G8B8,512x512x1.
+17:24:03: WARNING: material ssao has no supportable Techniques and will be blank. Explanation: 
+Pass 0: Vertex program ssao_vs cannot be used - not supported.
+
+17:24:03: Creating resource group mainSceneSceneMgr_group
+17:24:03: Initialising resource group mainSceneSceneMgr_group
+17:24:03: Parsing scripts for resource group mainSceneSceneMgr_group
+17:24:03: Finished parsing scripts for resource group mainSceneSceneMgr_group
+17:24:03: Mesh: Loading meshes/frame.mesh.
+17:24:03: WARNING: meshes/frame.mesh is an older format ([MeshSerializer_v1.40]); you should upgrade it as soon as possible using the OgreMeshUpgrade tool.
+17:24:03: Texture: textures/axes.png: Loading 1 faces(PF_A8R8G8B8,256x256x1) with 5 generated mipmaps from Image. Internal format is PF_A8R8G8B8,256x256x1.
+17:24:03: Creating resource group CustomMaterials
+17:24:03: Initialising resource group CustomMaterials
+17:24:03: Parsing scripts for resource group CustomMaterials
+17:24:03: Finished parsing scripts for resource group CustomMaterials
+17:24:05: OGRE EXCEPTION(5:ItemIdentityException): No SubMesh named 2 found. in Mesh::_getSubMeshIndex at /build/buildd/ogre-1.7.4/OgreMain/src/OgreMesh.cpp (line 1105)

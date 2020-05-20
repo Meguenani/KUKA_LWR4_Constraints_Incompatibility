@@ -1,0 +1,27 @@
+<robot name="env11">
+    <link name="env11">
+        <inertial>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <mass value="1000000"/>
+            <inertia ixx="1000000"  ixy="1000000"  ixz="1000000" iyy="1000000" iyz="1000000" izz="1000000" />
+        </inertial>
+        <visual>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <geometry>
+                <mesh filename="env11.dae#Env11"/>
+            </geometry>
+            <material name="material.concrete">
+                <color rgba="0 0 0 1" />
+            </material>
+        </visual>
+        <collision>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <geometry>
+                <mesh filename="env11.dae#Env11"/>
+            </geometry>
+        </collision>
+    </link>
+</robot>
+
+
+

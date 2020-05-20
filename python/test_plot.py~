@@ -1,0 +1,15 @@
+import numpy as np
+import matplotlib.pyplot as plt
+
+save_dObst7g = open("results/save_dObst7g.txt","w")
+#save_dObst7g.write(str(dist))
+save_dObst7g.write("hello world in the new file\n")
+
+x = np.linspace(0, 10)
+line, = plt.plot(x, np.sin(x), '--', linewidth=2)
+
+dashes = [10, 5, 100, 5] # 10 points on, 5 off, 100 on, 5 off
+line.set_dashes(dashes)
+math.sqrt(4)
+plt.show()
+

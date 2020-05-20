@@ -1,0 +1,2 @@
+Eigen::VectorXi int_root_neg_jerk(Eigen::Matrix<int, 4, 7> rounded_Quartic_roots_neg_jerk_poly, Eigen::VectorXd q_bounds_min, Eigen::VectorXd q_bounds_max, Eigen::VectorXd q, Eigen::VectorXd q_dot, Eigen::VectorXd q_dddot_bounds_min, Eigen::VectorXd q_dddot_bounds_max);
+Eigen::VectorXi int_root_pos_jerk(Eigen::Matrix<int, 4, 7> rounded_Quartic_roots_pos_jerk_poly, Eigen::VectorXd q_bounds_min, Eigen::VectorXd q_bounds_max, Eigen::VectorXd q, Eigen::VectorXd q_dot, Eigen::VectorXd q_dddot_bounds_min, Eigen::VectorXd q_dddot_bounds_max);

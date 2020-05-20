@@ -1,0 +1,33 @@
+""" This module abstract the instantiation and configuration of the spacemouse.
+"""
+import xdefw.rtt
+import rtt_interface
+import deploy.deployer as ddeployer
+import xdefw.interactive
+import xde_spacemouse as spacemouse
+import lgsm
+
+
+class SpaceMouse(xdefw.rtt.Task):
+
+	def __init__(self, task):
+		#Input Port	
+		self.posi_3D = self.addCreateInputPort("posi_3D", "Displacementd"", False)                  # posi_3D from spacemouse
+		self.sTask.addPort(self.posi_3D)
+		xdeTasksUtils.synchronizer.startTask()
+
+
+
+        def startHook(self):
+		pass
+
+	def stopHook(self):
+		pass
+
+	def updateHook(self):
+			
+		if (self.sTask.ready()) == True: 				# garde pour valeur la premiere valeur arrivee sur chaque port. Peut etre depassee au moment de larrivee de la derniere
+			self.data = self.sTask.getData()
+			posi_3D = self.data["posi_3D"]
+
+
